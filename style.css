@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #2f3133;
+    background-image: linear-gradient(161deg, #3A4142 20%,#2C3233 30%, #2f3133 30%);
 }
 
 .gridcontainer {
