@@ -1,0 +1,152 @@
+* {
+    box-sizing : border-box;
+}
+
+body {
+    background-color: #2f3133;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-areas: 
+                    "a b d"
+                    "a c d"; 
+    grid-template-columns: 15% 50% 35%;
+    width: 1000px;
+    margin: auto;
+    vertical-align: middle;
+
+    /* pour centrer au milieu de la fenètre */
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);  /* tiré de la moitié de sa propre hauteur */
+
+    
+    grid-gap: 10px;
+    background-color:whitesmoke;
+    border : 1px solid whitesmoke;
+    box-shadow: 10px 10px #DA9C00;
+    border-radius : 20px;
+    color: #2f3133;
+}
+
+
+/*--------------------- To All -----------------------------*/
+h1, h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p, ul, table {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/*---------------------- Left column ------------------------*/
+
+#menu {
+    grid-area: a;
+}
+#menu ul {
+    list-style-type: none;
+    height: 100%;
+    background-color: #2f3133;
+    border : 1px solid whitesmoke;
+    border-radius: 20px 0 0 20px; 
+    margin: 0; 
+    padding : 0;
+    line-height: 100px;
+    width : 100%;
+}
+
+#menu li {
+    height : 25%;
+}
+
+#menu li a {
+    display : block;
+    color : #DA9C00;
+    font-size: 15px;
+    text-decoration: none;
+    height : 100%;
+    padding : 30px; 
+}
+
+#menu li a:hover {
+    color: whitesmoke;
+    background-color: #DA9C00;
+}
+
+#menu #lien1:hover {
+    border-radius: 20px 0 0 0;
+}
+
+#menu #lien2:hover {
+    border-radius: 0 0 0 20px;
+}
+
+/* ----------------- Center column --------------------------*/
+/* ----------------- About Me --------------------- */
+
+h1 {
+    font-size: 230%;
+    text-shadow: 1px 1px #DA9C00;
+}
+#About_Me {
+    grid-area: b;
+    justify-self: stretch;
+    padding : 10px;
+}
+
+#About_Me p {
+    text-align: justify;
+}
+
+
+/* ----------------- photo --------------------- */
+
+#photo {
+    grid-area: c;
+    justify-self: center;
+    
+}
+
+#photo img {
+    height: 300px;
+    width : 300px;
+    
+}
+
+/* ----------------- Right column --------------------------*/
+/*----------------- Personnal info ----------------*/
+
+#Personnal_Info {
+    grid-area: d;
+}
+
+table {
+    width : 100%;
+    height : 60%;
+}
+
+td {
+    border-collapse: collapse;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+table .a {
+    background-color: rgba(253, 192, 25, 0.664);
+}
+
+/* ------------------ Social links -----------*/
+
+#social_links {
+    grid-area: d;
+    justify-self: stretch;
+    align-self: end;
+}
+
+#social_links img {
+    height: 100px;
+    width : 100px;
+   
+}
