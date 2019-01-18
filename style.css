@@ -139,6 +139,9 @@ table .a {
 
 /* ------------------ Social links -----------*/
 
+#social_links a {
+    text-decoration: none;
+}
 #social_links {
     grid-area: d;
     justify-self: stretch;
