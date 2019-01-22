@@ -84,7 +84,7 @@ p, ul, table {
 }
 
 /* ----------------- Center column --------------------------*/
-/* ----------------- About Me --------------------- */
+
 
 h1 {
     font-size: 230%;
@@ -101,7 +101,7 @@ h1 {
 }
 
 
-/* ----------------- photo --------------------- */
+
 
 #photo {
     grid-area: c;
@@ -116,40 +116,61 @@ h1 {
 }
 
 /* ----------------- Right column --------------------------*/
-/*----------------- Personnal info ----------------*/
+
 
 #Personnal_Info {
+    padding-top: 30px;
     grid-area: d;
 }
 
 table {
-    width : 100%;
+    width : 80%;
     height : 60%;
 }
 
 td {
     border-collapse: collapse;
     padding: 5px;
-    border-radius: 10px;
+    border-bottom: 1px solid rgba(253, 192, 25, 0.664);
+    border-radius: 0 10px 10px 0 ;
 }
 
 table .a {
     background-color: rgba(253, 192, 25, 0.664);
+    border-radius: 10px 0 0 10px;
+    padding-left: 15px;
+    width: 35%;
 }
 
-/* ------------------ Social links -----------*/
-
-#social_links a {
-    text-decoration: none;
+tr:hover {
+    background-color: #2f3133; 
+    color: whitesmoke;
+    border: whitesmoke;
 }
+
+
+
+
 #social_links {
     grid-area: d;
+    padding-bottom: 15px;
     justify-self: stretch;
     align-self: end;
 }
 
+#social_links a {
+    text-decoration: none;
+}
+
 #social_links img {
-    height: 100px;
-    width : 100px;
+    width: 6em;
+    height: 6em;
    
 }
+#social_links img:hover {
+    height: 7em;
+
+}
+
+
+
