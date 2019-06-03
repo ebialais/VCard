@@ -1,14 +1,19 @@
 # VCard
 
+After 10 days of training, we had to create a VCard. 
 
-Création d'un carte de visite.
+The aim of the exercice was to : 
+		* have a clean and well indented html file
+		* CSS : 
+		- have a clear and understandable file
+		- avoid repetition or unnecessary lines of code
+		- master grid
+		- master the background gradient
+		
+## Visual
 
-Objectif de l'exercice :
-		* avoir un fichier HTML propre et bien indenté
-		* en CSS : 
-		- avoir un fichier clair et compréhensible
-		- eviter de se repéter ou d'avoir des lignes de codes inutiles
-		- maitriser grid
-		- maitriser le dégradé (sur le background)
+file:///Users/emiliebialais/Desktop/BeCode/VCard/index.html
+
+
 
 
