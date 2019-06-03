@@ -15,5 +15,5 @@ The aim of the exercice was to :
 file:///Users/emiliebialais/Desktop/BeCode/VCard/index.html
 
 
-
+![View](Screenshot.png)
 
