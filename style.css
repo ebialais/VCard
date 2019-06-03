@@ -172,5 +172,25 @@ tr:hover {
 
 }
 
+/* ------- Responsive mobile phone ---------- */
+@media only screen and (max-width: 770px) {
+    .gridcontainer { 
+        grid-template-areas: 
+                                        "a a"
+                                        "b b"
+                                        "c c"
+                                        "d d";
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 40% 15% 15% 30%;
+        grid-gap: 1%;
+        width: 99%
+    }
+    
+    #menu ul {
+        height: 99%;
+    }
+    #menu li a {
+        height: 10%;
+    }
 
-
+}
